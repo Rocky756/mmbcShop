@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  background-color: #F9FBFB;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.appCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navdiv {
+  margin: 10px;
+  display: flex;
+}
+.cont {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.prodCard {
+  margin-top: 10px;
+  width:18rem;
+  background-color: white;
+}
+.success {
+  border: 2px solid green;
+}
+.success:hover {
+  border: 5px solid green;
+}
+.fail:hover {
+  border: 5px solid red;
+}
+.cardBodyCont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.checkFlex {
+  margin-top: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2A6BF8;
+  border-radius: 15px;
+}
+.plusDash {
+  cursor: pointer;
+}
+.noClickBtn {
+  cursor: default;
+}
+.contBasket{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.prodBasketCard {
+  margin: 10px;
+  width:18rem;
+  background-color: white;
 }
